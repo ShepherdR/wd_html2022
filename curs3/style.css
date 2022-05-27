@@ -1,0 +1,13 @@
+p{
+    font-style: italic;
+}
+p:hover{
+    color: brown;
+    cursor: pointer;
+}
+h1,h2,h3{
+    font-size: 80px;
+}
+    p::before, p::after{
+        content: "^^";
+    }

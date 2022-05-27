@@ -1,0 +1,31 @@
+div{
+    width: 100%;
+    max-width: 500px;
+    max-height: 300px;
+    overflow: hidden;
+    float: left;
+    border: 10px solid blue;
+    /* padding: 25px 15px 20px 10px; */
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin: 40px;
+    background-color: rgb(225, 225, 58);
+}
+div:nth-child(2n){
+    background-color: rgb(170, 62, 43,0.7);
+    background-image: url(../../curs2/img/gogosi-glazurate.jpeg);
+    background-position: bottom center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+}
+div p{
+    color: blue;
+    text-align: center;
+}
+div p span{
+    color: chartreuse;
+}

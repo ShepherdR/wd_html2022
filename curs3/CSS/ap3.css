@@ -1,0 +1,12 @@
+/* #divdemo{
+    color: cadetblue;
+} */
+div>p{
+    color: cornflowerblue;
+}
+section>p{
+    color: crimson;
+}
+div~p{
+    color: darkgoldenrod;
+}

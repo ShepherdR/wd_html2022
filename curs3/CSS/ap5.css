@@ -1,0 +1,12 @@
+#primulp{
+    color: red;
+}
+#primulp:hover{
+    color: blueviolet;
+}
+.demop{
+    color: blue;
+}
+.demo2p{
+    font-size: 30px;
+}
