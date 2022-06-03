@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Shadows Into Light';
+    src: url('../fonts/ShadowsIntoLight-Regular.eot');
+    src: url('../fonts/ShadowsIntoLight-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ShadowsIntoLight-Regular.woff2') format('woff2'),
+         url('../fonts/ShadowsIntoLight-Regular.woff') format('woff'),
+         url('../fonts/ShadowsIntoLight-Regular.ttf')  format('truetype'),
+         url('../fonts/ShadowsIntoLight-Regular.svg#Shadows Into Light') format('svg');
+}
+
+div{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid rebeccapurple;
+    width: 100%;
+    /* max-width: 400px; */
+    display: inline-block;
+    /* position: relative;
+    left: 50%; */
+    outline-style: dotted;
+    outline-width: 10px;
+    outline-color: cornflowerblue;
+    outline-offset: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: initial;
+    font-family: 'Shadows Into Light', cursive;
+}
