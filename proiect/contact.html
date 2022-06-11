@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+        <!-- Nav bar -->
+        <nav class="navbar">
+            <ul>
+                <li class="activ"><a href="acasa.html">Acasa</a></li>
+                <li><a href="portofoliu.html">Portofoliu</a></li>
+                <li><a href="">Despre</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="">Clienti</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Main Area -->
+    <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Formular de contact</h2>
+                <div class="content-text">
+                    <form action="https://yaya.com" method="get">
+                        <label for="orase">Selecteaza orasul</label><br>
+                        <select name="orase" id="orase">
+                            <option value="">Oras</option>
+                            <option value="Timisoara">Timisoara</option>
+                            <option value="Bucuresti" selected>Bucuresti</option>
+                            <option value="Constanta">Constanta</option>
+                            <option value="Barlad">Barlad</option>
+                        </select> <br>
+                        <label for="limbaje">Selecteaza limbajul de programare dorit</label><br>
+                        <select name="limbaje" id="limbaje" multiple>
+                            <option value="php">PHP</option>
+                            <option value="js">JAVASCRIPT</option>
+                            <option value="pyth">PYTHON</option>
+                            <option value="c++">C++</option>
+                        </select> <br> <br>
+                        <label for="limbaje">Selecteaza limbajul de programare dorit V2</label><br>
+                        <!-- Este tag vid si nu are nevoie de tag de inchidere, dar merge si asa. -->
+                        <input type="checkbox" name="limbaj1" id="limbaj1" value="php">PHP</input>
+                        <input type="checkbox" name="limbaj2" id="limbaj2" value="js">Javascript</input>
+                        <input type="checkbox" name="limbaj3" id="limbaj3" value="pyth">Python</input>
+                        <input type="checkbox" name="limbaj4" id="limbaj4" value="c++">C++</input> <br> <br>
+                    
+                        <label for="limbaje">Selecteaza limbajul de programare dorit V3</label><br>
+                        <input type="checkbox" name="limbaj1" id="limbaj1" value="php"><label for="limbaj1">PHP</label><br>
+                        <input type="checkbox" name="limbaj2" id="limbaj2" value="js"><label for="limbaj2">Javascritp</label><br>
+                        <input type="checkbox" name="limbaj3" id="limbaj3" value="pyth"><label for="limbaj3">Python</label><br>
+                        <input type="checkbox" name="limbaj4" id="limbaj4" value="c++"><label for="limmbaj4">C++</label><br>
+                    
+                        <label for="mesaj">Mesaj</label><br>
+                        <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+                        <fieldset>
+                        <legend>
+                            Program cursuri
+                        </legend>
+                        <input type="radio" name="program" id="p1" value="dimineata" checked><label for="p1">Dimineata</label>
+                        <input type="radio" name="program" id="p2" value="pranz" disabled><label for="p2">Pranza</label>
+                        <input type="radio" name="program" id="p3" value="seara"><label for="p3">Seara</label>
+                    </fieldset><br><br>
+                    <input type="checkbox" name="termeni" id="termeni"><label for="termeni">Termeni si conditii</label>
+                    <input type="checkbox" name="noutati" id="noutati"><label for="noutati">Abonati-va la newsletter</label><br> <br>
+                    <input type="submit" value="Trimite datele" name="trimite">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+        <div>My Project</div>
+        <div>Project By <a href="" target="_blank">LinkAcademy</a></div>
+    </footer>
+</body>
+</html>

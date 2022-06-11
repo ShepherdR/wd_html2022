@@ -1,0 +1,13 @@
+h2{
+    border-bottom: 3px solid rgb(72, 136, 233);
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px 10px 20px !important;
+    background-color: rgb(72, 136, 233) !important;
+    font-size: 20px !important;
+}
+input[type='text'], input[type='email'], input[type='password']{
+    padding: 15px;
+}
